@@ -1,0 +1,17 @@
+﻿<Window x:Class="JohnMartinHW1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JohnMartinHW1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" Background="LightBlue">
+    <Grid>
+        <Label x:Name="UpperLeft" VerticalAlignment="Top" HorizontalAlignment="Left" Content="Upper Left Label" Margin="15,12,0,0" ></Label>
+        <Label x:Name="UpperRight" VerticalAlignment="Top" HorizontalAlignment="Right" Content="Upper Right Label" Margin="0,12,11,0"></Label>
+        <Label x:Name="LowerRight" Content="Lower Right Label" HorizontalAlignment="Right" Margin="0,0,11,11" VerticalAlignment="Bottom"/>
+        <Label x:Name="LowerLeft" Content="Lower Left Label" HorizontalAlignment="Left" Margin="16,0,0,11" VerticalAlignment="Bottom"/>
+        <Button x:Name="button" Content="Button" Margin="0,0,0,0" Click="button_Click" Height="20" VerticalAlignment="Center" HorizontalAlignment="Center" Width="75"/>
+        <Label x:Name="label" Content="Button has been clicked 0 times" Margin="0,0,0,-80" Height="26" VerticalAlignment="Center" HorizontalAlignment="Center" Width="Auto"/>
+    </Grid>
+</Window>
